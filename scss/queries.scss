@@ -1,0 +1,53 @@
+//
+// MEDIA QUERIES
+// ----------------------------------------------
+
+@media only screen and (max-width: 75rem) {
+    .bttm {
+        margin-bottom: 1.25rem;
+    }
+
+    .daniel {
+        background-image: url('../images/bg-pattern-quotation.svg');
+        background-repeat: no-repeat;
+        background-size: 9.375rem;
+        background-position-x: 68vh;
+    }
+}
+
+@media only screen and (max-width: 44.6875rem) {
+    body {
+        padding: 1.875rem 0rem;
+    }
+
+    #wrapper {
+        width: 23.4375rem;
+    }
+    
+    #wrapper .container {
+        max-width: 100%;
+        display: block;
+    }
+
+    .testimonials1,
+    .testimonials2,
+    .kira {
+        
+        h3 {
+            font-size: 1.125rem;
+        }
+
+        p, 
+        h1, 
+        h2 {
+            font-size: .6875rem;
+        }
+    }
+
+    .daniel {
+        background-image: url('../images/bg-pattern-quotation.svg');
+        background-repeat: no-repeat;
+        background-size: 8.125rem;
+        background-position-x: 21vh;
+    }
+}
